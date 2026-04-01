@@ -857,7 +857,7 @@ nav {
 .footer-bg-image {
   position: absolute;
   inset: 0;
-  background-image: url('https://github.com/user-attachments/assets/5276ff7f-e939-4d84-8cf2-b5e089e3e11d');
+  background-image: url('./JLCPCB.png');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -868,7 +868,7 @@ nav {
   position: absolute;
   inset: 0;
   background:
-    linear-gradient(to top, rgba(8, 28, 53, 0.94), rgba(8, 28, 53, 0.52) 45%, rgba(8, 28, 53, 0.3));
+    linear-gradient(to top, rgba(14, 48, 91, 0.95), rgba(14, 48, 91, 0.58) 45%, rgba(14, 48, 91, 0.35));
 }
 
 .footer-content {
@@ -915,7 +915,7 @@ nav {
   transition: color 0.15s, background 0.15s, border-color 0.15s;
   font-weight: 700;
   border: 1px solid rgba(255,255,255,0.22);
-  background: rgba(8, 28, 53, 0.45);
+  background: rgba(14, 48, 91, 0.55);
   padding: 8px 12px;
 }
 
