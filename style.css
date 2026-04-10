@@ -1497,9 +1497,22 @@ nav {
 }
 
 .program-icon {
-  font-size: 40px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 60px;
+  height: 60px;
+  background: linear-gradient(135deg, var(--bp-warning) 0%, rgba(255, 200, 87, 0.8) 100%);
+  color: var(--bp-dark);
+  font-weight: 800;
+  font-size: 11px;
+  font-family: var(--font-heading);
+  border-radius: 4px;
+  text-align: center;
+  letter-spacing: 0.05em;
   line-height: 1;
-  display: block;
+  padding: 4px;
+  flex-shrink: 0;
 }
 
 .program-card h3 {
@@ -1537,4 +1550,36 @@ nav {
 .program-link:hover {
   gap: 12px;
   color: white;
+}
+
+.program-meta {
+  font-size: 12px;
+  color: rgba(255,255,255,0.4);
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.program-meta::before {
+  content: '';
+  width: 4px;
+  height: 4px;
+  background: var(--bp-warning);
+  border-radius: 50%;
+}
+
+.program-meta > span {
+  display: inline-block;
+}
+
+.program-meta > span:after {
+  content: '•';
+  margin-left: 12px;
+  color: rgba(255,255,255,0.2);
+}
+
+.program-meta > span:last-child:after {
+  content: '';
 }
